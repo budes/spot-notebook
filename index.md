@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/budes/spot.linguagens/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## O que é essa série?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Série de notebooks simples e minimalistas, são voltados para serem algo **moderno** e voltado para **produtividade**, mas que ao mesmo tempo, tenha um **preço mais benéfico**.
 
-### Markdown
+Para isso, dá um design moderno, processadores 
+bons, mas com um **preço abaixo da média para computadores do mesmo porte**.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![ImagemProduto](Arquivos/imagem_prod.jpg)
 
-```markdown
-Syntax highlighted code block
+## O que é oferecido
 
-# Header 1
-## Header 2
-### Header 3
+- Peso: 1,85 kg
+- Tela: LED, 15,6 polegadas
+- Resolução: 1366 x 768 pixels (HD) ou 1920 x 1080 pixels (Full HD)
+- Processador: Intel Celeron N4000, Core i5 8265U ou Core i7 8565U
+- Sistema Operacional: Windows 10 Home ou Windows 10 Pro
+- Memória RAM: 4, 8 ou 12 GB DDR4
+- Armazenamento: HD de 500 GB, HD de 1 TB ou SSD de 256 GB
+- Vídeo: Intel UHD Graphics ou Nvidia GeForce MX110
+- Interfaces: 2 x USB 3.1, 1 x USB 2.0, 1 x HDMI, entrada para fone de ouvido, leitor de cartões 4 em 1, Wi-Fi e Bluetooth
+- Cor: prata
+- Dimensões: 36,2 x 25,1 x 1,99 cm
 
-- Bulleted
-- List
+## O spot produzido
 
-1. Numbered
-2. List
+O spot produzido se baseia em apresentar como um produto de rádio, ou como um comercial completamente baseado em áudio.
 
-**Bold** and _Italic_ and `Code` text
+<audio src="Arquivos/final1.mp3" controls preload="auto"> Meu áudio </audio>
+ 
+ 
+## Roteiros
+ 
+ Tudo que pensei como roteiro, o link do que usei como base e todas as ideias iniciais e aspectos que utilizei para me referir
+ 
+<a href="Arquivos/Roteiro.txt">
 
-[Link](url) and ![Image](src)
-```
+<button style="border: 3px solid black; border-radius: 10px; padding: 15px; cursor: pointer; font-size: 3rem;"> Roteiro </button>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+</a>
+ 
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/budes/spot.linguagens/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
