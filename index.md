@@ -1,4 +1,5 @@
 # Série Ideapad S145 da Lenovo
+<title> Ideapad S145 </title>
 
 ## O que é essa série?
 
