@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+import cgitb; cgitb.enable()
 import os
 
 # O caminho é relativo ao path inicial '/'
