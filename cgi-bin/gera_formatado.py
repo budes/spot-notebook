@@ -5,6 +5,7 @@ import os
 
 # O caminho é relativo ao path inicial '/'
 
+arg_nav = cgi.FieldStorage()
 args = {'arquivo': 'Roteiro.txt', 'caminho': 'Arquivos/'}# cgi.FieldStorage()
 
 caminho = args['caminho']
