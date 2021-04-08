@@ -34,14 +34,7 @@ O spot produzido se baseia em apresentar como um produto de rádio, ou como um c
  
 ## Roteiros
  
- Tudo que pensei como roteiro, o link do que usei como base e todas as ideias iniciais e aspectos que utilizei para me referir
-
-<style>
- button::hover {
-  background-color: black;
-  font-color: white;
- }
-</style>
+Tudo que pensei como roteiro, o link do que usei como base e todas as ideias iniciais e aspectos que utilizei para me referir
   
 <a href="Arquivos/Roteiro.txt"><button style="width: 100%; border: 3px solid black; border-radius: 10px; padding: 15px; cursor: pointer; font-size: 3rem"> Roteiro </button></a>
  
