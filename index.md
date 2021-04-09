@@ -1,7 +1,7 @@
 
 <html>
 	<head>
-	<title>Série Ideapad S145 da Lenovo</title>
+		<title>Série Ideapad S145 da Lenovo</title>
 	</head>
 	<body>
 		<section class="explicacao">
