@@ -43,7 +43,7 @@
 			O spot produzido se baseia em apresentar como um produto de rádio, ou como um comercial completamente baseado em áudio.
 		</p>
 
-		<audio src="Arquivos/final1.mp3" controls preload="auto" style="width:100%"> Meu áudio </audio>
+		<audio src="Arquivos/final1.mp3" controls preload="auto" style="width:100%; border-radius: 1rem"> Meu áudio </audio>
 
 	</section>
 
