@@ -20,9 +20,7 @@ mostrar = arquivo.read()
 
 print("Content-type: text/html \n")
 
-print('<html>')
 print(mostrar)
-print('</html>')
 
 arquivo.close()
 
