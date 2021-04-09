@@ -18,9 +18,11 @@ arquivo = open(arq, 'r')
 
 mostrar = arquivo.read()
 
-print("Content-type: text/html")
+print("Content-type: text/html \n")
 
+print('<html>')
 print(mostrar)
+print('</html>')
 
 arquivo.close()
 
