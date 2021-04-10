@@ -77,7 +77,7 @@
 
 			</style>
 
-			<a href="cgi-bin/gera_formatado.py"><button> Roteiro </button></a>
+			<a href="txt_abrt.md"><button> Roteiro </button></a>
 
 		</section>
 
