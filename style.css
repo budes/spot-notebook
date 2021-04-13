@@ -264,9 +264,6 @@ audio {
 	}
 	
 
-	.corpo {
-		background-color: black;
-	}
 
 	.interno h2 {
 		font-size: 4rem;
@@ -280,7 +277,7 @@ audio {
 
 	.interno {
 		max-width: 100%;
-		width: 100%;
+		width: 95%;
 	}
 
 	.interno button{
