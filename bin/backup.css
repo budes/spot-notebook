@@ -1,1 +1,300 @@
 
+html {
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+    vertical-align: baseline;
+
+	box-sizing: border-box;
+
+	background: linear-gradient(to top, rgb(20, 20, 20), rgb(20, 20, 20));
+
+	min-width: 50rem;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	border: 0;
+	margin: 0;
+}
+
+section {
+	margin-bottom: 4rem
+}
+
+audio {
+	width: 100%;
+	height: 5rem;
+}
+
+.borda {
+
+	height: 10rem;
+	width: 100%;
+
+	min-width: 480px;
+
+	background: linear-gradient(to top, rgb(51, 51, 51), rgb(20, 20, 20));
+}
+
+.titulo {
+	max-width: 480;
+	margin: 0 auto;
+
+	height: 100%;
+
+	position: relative;
+
+}
+
+.titulo h1{
+	text-align: center;
+
+	vertical-align: baseline;
+
+	float: top;
+	top: 200%;
+
+	transform: translate(-50%, 100%);
+
+	margin: 0;
+	width: 457px;
+
+	font-size: 45;
+	font-weight: 700;
+
+	color: rgb(230, 230, 230);
+
+	box-shadow: 3px, 3px, rgba(0, 0, 0, 0.2)
+}
+
+
+.botoes-top{
+	float: right;
+	display: block;
+
+	padding: 10px 70px 10px 10px;
+
+	height: 3.5rem;
+	width: 13rem;
+
+	font-size: 1.2rem;
+	font-weight: 700;
+
+	color: rgb(230, 230, 230);
+
+	border-radius: 0px 0px 5px 5px;
+	border: 0px;
+}
+
+#ver {
+	transform: translate(-10%, -100%);
+
+	background-color: rgb(0, 144, 255);
+	background-image: url("icones/github.png");
+	background-position: 90% 50%;
+	background-repeat: no-repeat;
+}
+
+#baixar, #ver-puro {
+	transform: translate(200%, -100%);
+
+
+	background-color: rgb(0, 220, 90);
+	background-image: url("icones/download32.png");
+	background-size: auto;
+	background-position: 90% 50%;
+	background-repeat: no-repeat;
+}
+
+#ver-puro {
+
+	background-color: rgb(220, 90, 90);
+	background-image: url("icones/olho.png");
+	background-size: 2rem;
+}
+
+.corpo {
+	max-width: 100%;
+	min-width: 480px;
+
+	position: relative;
+
+	text-align: center;
+	align-content: center;
+
+	background-color: rgb(230, 230, 230);
+}
+
+.interno {
+	max-width: 640px;
+	min-width: 480px;
+
+	display: inline-block;
+	text-align: left;
+
+	position: static;
+
+	height: inherit;
+
+	padding: 40px 40px 40px 40px;
+
+	background-color: rgb(250, 250, 250);
+
+	box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2), 0 3px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.interno h2 {
+	font-size: 2rem;	
+	font-weight: 700;
+	font-family: calibri;
+	height: 1rem;
+	padding-bottom: 2.5rem;
+
+	border-bottom: 0.12rem dashed rgb(200, 200, 200)
+}
+
+.corpo p {
+	color: rgb(60, 60, 60);
+}
+
+#imagem_notebook {
+	align-content: center;
+	width: 75%;
+}
+
+.corpo button {
+	margin: 8;
+	padding: 10px;
+	width: 100%;
+
+	border: 3px solid rgb(25, 25, 25);
+	border-radius: 10px;
+
+	box-sizing: border-box;
+
+	cursor: pointer;
+
+	font-size: 3rem;
+
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+	transition: background-color 0.5s, color 0.5s
+}
+
+.corpo button:hover {
+	background-color: rgb(25, 25, 25);
+	color: white;
+}
+
+#borda-baixo {
+	position: absolute;
+	float: bottom;
+
+	height: 7rem;
+
+	color: rgb(230, 230, 230);
+}
+
+#borda-baixo a{ color: rgb(230, 230, 230); }
+
+#borda-baixo content{
+	text-align: center;
+
+	vertical-align: baseline;
+
+	float: top;
+	top: 5%;
+
+	transform: translate(25%, 100%);
+
+	margin: 0;
+	width: 457px;
+
+	color: rgb(230, 230, 230);
+}
+
+
+
+@media (max-width: 60rem), (max-device-width: 39.5rem){
+	audio{
+		height: 5rem;
+	}
+
+	img {
+		padding-bottom: 3rem;
+	}
+
+	.borda {
+		height: 25rem;
+
+	}
+
+	.titulo{
+		width: 100%;
+		transform: translate(50%, 30%);
+	}
+
+	.titulo h1{
+		width: 40rem;
+		font-size: 5rem;
+	}
+
+	#ver {
+		width: 100%;
+		height: 6.5rem;
+
+		font-size: 2.5rem;
+		background-size: 4rem;
+		transform: translate(-100%, -170%);
+	}
+
+	#baixar, #ver-puro {
+		width: 100%;
+		height: 6.5rem;
+
+		font-size: 2.5rem;
+		background-size: 4rem;
+
+		transform: translate(-0%, -270%);
+	}
+	
+
+	.corpo {
+		background-color: black;
+	}
+
+	.interno h2 {
+		font-size: 4rem;
+		padding-bottom: 5rem;
+		border-bottom: 0.25rem dashed rgb(200, 200, 200)
+	}
+
+	.interno p {
+		font-size: 1.2rem;
+	}
+
+	.interno {
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.interno button{
+		font-size: 5rem;
+	}
+
+
+	#borda-baixo {
+		height: 15rem;
+	}
+
+	#borda-baixo content{
+		font-size: 2.5rem;
+	}
+
+}
