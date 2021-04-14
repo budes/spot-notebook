@@ -39,6 +39,7 @@
   Os elementos usados são todos diretamente do HTML, ou seja, não programei nenhum elemento de
   modo externo _(como JavaScript, TypeScript, ou PHP)_ , apenas fiz uso dos elementos já apresentados no HTML.
   
+  
   ### Organização
   
   A página tem um sistema organizacional muito simples, que se baseia nas sections.
@@ -48,6 +49,7 @@
   
   Além disso, a maior parte da organização executada eu tirei do próprio tema Slate.
   Já que foi de lá que peguei boa parte da inspitação.
+  
   
   ### Por que o roteiro foi escrito todo pelo HTML
   
@@ -61,5 +63,9 @@
   
   E como é a minha _"língua materna"_ é bem provável que será em python.
   
+  
+## Funcionamento
+  ![desktop](Capturas/desktop.png)
+  ![mobile](Capturas/mobile.png)
   
   
